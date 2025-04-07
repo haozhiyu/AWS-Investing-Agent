@@ -75,7 +75,8 @@ Web3 Investment Advisor是一个交互式聊天机器人应用，专门为加密
 
 1. 克隆仓库并且修改.env
 
-在.env中填写自己的access key 和agent信息，推荐使用如下文档来一件部署后端Agent:https://aws.amazon.com/blogs/web3/build-crypto-ai-agents-on-amazon-bedrock/?nc1=b_rp，部署完成后，可获得对应的agent信息
+在.env中填写自己的access key 和agent信息，推荐使用如下文档来一件部署后端Agent:https://aws.amazon.com/blogs/web3/build-crypto-ai-agents-on-amazon-bedrock/?nc1=b_rp
+ 部署完成后，可获得对应的agent信息
 
 
 
