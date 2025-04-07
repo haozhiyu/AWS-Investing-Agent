@@ -7,7 +7,7 @@
 
 一个专为Web3投资者设计的智能聊天机器人，提供加密货币分析和投资建议。
 
-
+![](/snapshot.png)
 
 
 
@@ -98,19 +98,9 @@ Web3 Investment Advisor是一个交互式聊天机器人应用，专门为加密
 
 
 
-1. 克隆仓库
+1. 克隆仓库并且修改.env
 
-
-   ```bash
-
-
-   git clone https://github.com/yourusername/web3-investment-advisor.git
-
-
-   cd web3-investment-advisor
-
-
-   ```
+在.env中填写自己的access key 和agent信息，推荐使用如下文档来一件部署后端Agent:https://aws.amazon.com/blogs/web3/build-crypto-ai-agents-on-amazon-bedrock/?nc1=b_rp，部署完成后，可获得对应的agent信息
 
 
 
@@ -159,78 +149,6 @@ Web3 Investment Advisor是一个交互式聊天机器人应用，专门为加密
 
 
 4. 打开浏览器访问 http://localhost:3000
-
-
-
-
-
-## 项目结构
-
-
-
-
-
-```
-
-
-src/
-
-
-├── app/                  # Next.js 应用目录
-
-
-│   ├── api/              # API 路由
-
-
-│   │   ├── chat/         # 聊天API
-
-
-│   │   └── crypto/       # 加密货币数据API
-
-
-│   ├── globals.css       # 全局样式（未使用）
-
-
-│   ├── layout.tsx        # 应用布局
-
-
-│   └── page.tsx          # 主页面
-
-
-├── components/           # React组件
-
-
-│   ├── ChatInput.tsx     # 聊天输入组件
-
-
-│   ├── ChatInterface.tsx # 主聊天界面
-
-
-│   ├── ChatMessages.tsx  # 聊天消息显示
-
-
-│   ├── CryptoChart.tsx   # 加密货币价格图表
-
-
-│   └── Layout.tsx        # 布局组件（页眉和页脚）
-
-
-├── lib/                  # 工具函数和库
-
-
-│   ├── bedrock.ts        # Amazon Bedrock集成
-
-
-│   └── utils.ts          # 通用工具函数
-
-
-└── python/               # Python脚本
-
-
-    └── bedrock_client.py # Bedrock客户端
-
-
-```
 
 
 
@@ -318,34 +236,6 @@ src/
 
 
 本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件
-
-
-
-
-
-## 联系方式
-
-
-
-
-
-如有任何问题或建议，请通过以下方式联系我：
-
-
-
-
-
-- GitHub Issues: [https://github.com/yourusername/web3-investment-advisor/issues](https://github.com/yourusername/web3-investment-advisor/issues)
-
-
-- Email: your.email@example.com
-
-
-
-
-
----
-
 
 
 
