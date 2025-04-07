@@ -46,31 +46,6 @@ Web3 Investment Advisor是一个交互式聊天机器人应用，专门为加密
 
 
 
-
-## 技术栈
-
-
-
-
-
-- **前端**：Next.js, React, TypeScript
-
-
-- **样式**：内联样式（不依赖外部CSS框架）
-
-
-- **图表**：Chart.js, react-chartjs-2
-
-
-- **后端**：Next.js API Routes
-
-
-- **AI集成**：Amazon Bedrock（用于生成回复）
-
-
-
-
-
 ## 安装与运行
 
 
